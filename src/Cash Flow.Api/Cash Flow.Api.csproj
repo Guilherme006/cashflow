@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Cash_Flow.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cash Flow.Application\Cash Flow.Application.csproj" />
+    <ProjectReference Include="..\Cash Flow.Communication\Cash Flow.Communication.csproj" />
+    <ProjectReference Include="..\Cash Flow.Exception\Cash Flow.Exception.csproj" />
+    <ProjectReference Include="..\Cash Flow.Infrastructure\Cash Flow.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
