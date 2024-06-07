@@ -6,6 +6,8 @@ The **API** architecture is based on **REST**, using standard **HTTP** methods f
 
 Among the NuGet packages used, **AutoMapper** is responsible for mapping between domain objects and request/response, reducing the need for repetitive and manual code. **FluentAssertions** are used in unit tests to make checks more readable, helping you write clear and understandable tests. For validations, **FluentValidation** is used to implement validation rules in a simple and intuitive way in request classes, keeping the code clean and easy to maintain. Finally, the **EntityFramework** acts as an ORM (Object-Relational Mapper) that simplifies interactions with the database, allowing the use of .NET objects to manipulate data directly, without the need to deal with SQL queries.
 
+![hero-image]
+
 ### Features
 
 - **Domain-Driven Design (DDD):** Modular structure that facilitates understanding and maintenance of the application domain.
@@ -45,6 +47,9 @@ To get a working local copy, follow these simple steps.
 
 <!-- Links -->
 [dot-net-sdk]: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+
+<!-- Images -->
+[hero-image]: /images/heroimage.png
 
 <!-- Badges -->
 [badge-dot-net]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge
